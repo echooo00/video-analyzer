@@ -29,9 +29,10 @@ video-analyzer-web = "video_analyzer.web_ui:main"
 
 [project.optional-dependencies]
 faster = ["faster-whisper>=1.0"]
+test = ["pytest>=7.0", "ruff>=0.3"]
 
 [tool.setuptools.packages.find]
 include = ["video_analyzer*"]
 
 [tool.setuptools.package-data]
-video_analyzer = [".env", ".env.example"]
+video_analyzer = [".env.example"]

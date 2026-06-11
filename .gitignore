@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# API keys & secrets
+.env
+*.pem
+credentials.json
+
+# Output & cache
+output/
+models/
+.video_analyzer_cache/
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unrelated projects (keep only video_analyzer)
+01-公众号写作/
+ai-translator-extension/
+bilibili-helper-extension/
+数分项目_ABTEST/
+机器学习项目_股票分析/
+data/
+
+# Misc
+_test_font.pdf
+pdf_text.txt
+pdf_remaining.txt
+chapters.txt
+generate_summary.py
+ClaudeCode_2026H1_调研素材.md
+ClaudeCode_章节总结.pdf
+SHARED-RULES.md
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

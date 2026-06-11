@@ -23,7 +23,7 @@ env/
 credentials.json
 
 # Output & cache
-output/
+/output/
 models/
 .video_analyzer_cache/
 *.wav
